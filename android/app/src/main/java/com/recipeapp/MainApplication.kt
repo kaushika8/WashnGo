@@ -1,4 +1,4 @@
-package com.recipeapp
+package com.washngo
 
 import android.app.Application
 import com.facebook.react.PackageList
