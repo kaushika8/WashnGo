@@ -127,7 +127,7 @@ const SignIn = () => {
               color: 'black',
               paddingVertical: 10,
             }}>
-            Email
+            Email/Phone
           </Text>
           <Input
             errorMessage={

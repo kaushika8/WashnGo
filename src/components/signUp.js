@@ -171,7 +171,7 @@ const SignUp = () => {
                 color: 'black',
                 paddingVertical: 10,
               }}>
-              Email
+              Email/Phone
             </Text>
             <Input
               errorMessage={
@@ -297,7 +297,7 @@ const SignUp = () => {
               buttonStyle={{backgroundColor: '#A3CFFF'}}
               titleStyle={{
                 color: '#092A4D',
-                fontFamily: appFonts.bold,
+                fontFamily: appFonts.headingBold,
                 fontSize: smallFont,
               }}
               containerStyle={{
@@ -307,7 +307,6 @@ const SignUp = () => {
                 paddingVertical: 4,
               }}
               onPress={() => {
-                // navigation.navigate('logout');
                 formik.handleSubmit();
               }}>
               Sign In

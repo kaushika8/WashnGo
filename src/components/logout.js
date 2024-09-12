@@ -23,8 +23,8 @@ const Logout = () => {
       <View style={{flex: 1, marginTop: width / 2}}>
         <Text
           style={{
-            fontFamily: appFonts.bold,
-            fontSize: mediumFont,
+            fontFamily: appFonts.extraBold,
+            fontSize: 20,
             color: 'black',
             textAlign: 'center',
           }}>
@@ -35,7 +35,7 @@ const Logout = () => {
           buttonStyle={{backgroundColor: '#A3CFFF'}}
           titleStyle={{
             color: '#092A4D',
-            fontFamily: appFonts.bold,
+            fontFamily: appFonts.headingBold,
             fontSize: mediumFont,
           }}
           containerStyle={{
@@ -43,7 +43,6 @@ const Logout = () => {
             borderRadius: 32,
             marginTop: 100,
             paddingVertical: 4,
-            paddingHorizontal: 80,
           }}
           onPress={() => {
             navigation.navigate('GetStarted');
